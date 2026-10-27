@@ -6,8 +6,6 @@ Uma WebApp de recrutamento com Django, React e SQLite. Cria uma conta sem email,
 
 ## Instalação automática
 
-**[Descarregar a versão completa com instaladores](https://github.com/diogoalexpimpaorodrigues-bot/forum-mecanica-2026-27/releases/latest)** — abre a secção **Assets** da versão e escolhe o ZIP do projeto.
-
 Clona o repositório ou extrai todo o ZIP e abre **INSTALAR-WINDOWS.cmd**, **INSTALAR-MACOS.command** ou **INSTALAR-LINUX.sh**, consoante o sistema. O arranque nativo prepara Python e as bibliotecas numa pasta própria e abre o site. A primeira instalação necessita de Internet; não é necessário instalar Python ou Node manualmente. Consulta [INSTALAR.md](INSTALAR.md) para os sistemas suportados, funcionamento, dados e limites de verificação.
 
 ### Ao obter apenas o código pelo GitHub

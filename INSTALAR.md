@@ -56,5 +56,3 @@ Os executáveis deste projeto não têm assinatura comercial Microsoft nem notar
 ## Origem das ferramentas
 
 A ferramenta uv é descarregada do projeto Astral, numa versão fixada em `installer/bootstrap.json`. O executável verifica o SHA-256 do arquivo antes de o utilizar. O Python é preparado pelo uv a partir das distribuições `python-build-standalone`; as bibliotecas vêm do PyPI nas versões fixadas em `backend/requirements.txt`. O instalador não executa scripts remotos recebidos por uma sequência `curl | sh`.
-
-Fontes oficiais: [Python gerido pelo uv](https://docs.astral.sh/uv/guides/install-python/), [plataformas do uv](https://docs.astral.sh/uv/reference/policies/platforms/), [requisitos do Go](https://go.dev/wiki/MinimumRequirements). Código, comentários e documentação preparados com auxílio de IA, identificado em `AI_USAGE.md`.

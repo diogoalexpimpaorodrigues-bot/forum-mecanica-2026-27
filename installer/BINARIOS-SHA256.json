@@ -1,0 +1,26 @@
+{
+  "forum-darwin-arm64": {
+    "sha256": "d2d4256a3c580a4c6b0a779c9c0729e60b905f35da2e4604ed65ac2caa0eba9a",
+    "bytes": 6659010
+  },
+  "forum-darwin-amd64": {
+    "sha256": "e4bf7be679d8d7516d7cc82892c85158ea2434ea06e9e0a3a21ae2686b83ff33",
+    "bytes": 7197552
+  },
+  "forum-windows-amd64.exe": {
+    "sha256": "5160d4a8aa56749e1abfa8185688a1a2de46d312e5b82967b6fde5dd001d6360",
+    "bytes": 7256576
+  },
+  "forum-windows-arm64.exe": {
+    "sha256": "4f38a49dc1d00663b66216e3719932ccb81a186544ef56dd418a700e8aaf2c61",
+    "bytes": 6575104
+  },
+  "forum-linux-amd64": {
+    "sha256": "243f268b56441e066b0f5f001e51a328a1f2f5b58fd928562ca562fc3dee71c0",
+    "bytes": 7053472
+  },
+  "forum-linux-arm64": {
+    "sha256": "2c058c4a3c5f24de75cb921c6416dca31be4e015f3fa0e706ebac53e132d1fa8",
+    "bytes": 6488224
+  }
+}

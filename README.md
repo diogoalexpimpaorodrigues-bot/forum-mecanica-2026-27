@@ -22,7 +22,7 @@ No Windows, abre `INSTALAR-WINDOWS.cmd` depois de extrair todos os ficheiros.
 
 A estrutura da base de dados está no código dos modelos e nas migrações de `backend/core/migrations/`. Na primeira execução, o Django cria `backend/db.sqlite3` com as tabelas necessárias. Cada pessoa cria as suas próprias contas; os dados de uma instalação não são publicados no GitHub.
 
-Os ambientes locais, as dependências instaladas, os ficheiros `.env` e as bases SQLite estão excluídos pelo `.gitignore`. O repositório inclui os testes, os relatórios da entrega, as capturas da interface, o frontend compilado e os seis instaladores nativos. O reconhecimento do auxílio de IA mantém-se em [AI_USAGE.md](AI_USAGE.md).
+Os ambientes locais, as dependências instaladas, os ficheiros `.env` e as bases SQLite estão excluídos pelo `.gitignore`.
 
 ## Arranque manual — sem precisar de Node
 
@@ -94,60 +94,6 @@ npm run build
 
 O novo `dist/` substitui a versão servida por Django. Não edites os ficheiros compilados diretamente. O lockfile fixa as versões efetivas; usa `npm ci` para as reproduzir.
 
-## Testes e verificações
-
-Com o ambiente Python ativo, na raiz:
-
-```sh
-python backend/manage.py test core -v 2
-python backend/manage.py check
-python backend/manage.py makemigrations --check --dry-run
-```
-
-Os testes de Django usam uma base isolada. Para as verificações da interface:
-
-```sh
-cd frontend
-npm ci
-npm test
-npm run test:coverage
-npm run lint
-npm run format:check
-npm run build
-npm audit
-cd ..
-```
-
-Para o percurso de navegador, acessibilidade e concorrência HTTP, instala também as dependências de teste:
-
-```sh
-python -m pip install -r tests/requirements.txt
-python -m playwright install chromium
-python tests/run_browser_tests.py --suite all
-```
-
-O executor inicia o seu próprio servidor numa porta livre, cria uma **base descartável** e remove-a no fim. Não precisas de ligar o servidor manualmente, e as tuas contas locais ficam preservadas. A auditoria de acessibilidade requer `npm ci` no frontend, pois usa axe-core.
-
-Verificação adicional em Firefox e WebKit:
-
-```sh
-python -m playwright install firefox webkit
-python tests/run_browser_tests.py --suite e2e --browser firefox
-python tests/run_browser_tests.py --suite e2e --browser webkit
-```
-
-Ensaio prolongado das invariantes de pontos, com quatro trabalhadores e 16 contas:
-
-```sh
-python tests/run_browser_tests.py --suite soak --minutes 20
-```
-
-O teste valida continuamente saldo não negativo, igualdade entre saldo e histórico, unicidade dos movimentos e isolamento entre contas. É um ensaio de estabilidade local; não mede capacidade de produção.
-
-Para repetir os controlos principais com um único comando, depois da instalação de dependências Python e de `npm ci`, usa `python verify.py` ou `python verify.py --browser`.
-
-Os relatórios reproduzíveis estão em `docs/qa/`. Os scripts individuais continuam disponíveis para diagnóstico, mas `e2e.py`, `ui_audit.py` e `api_smoke.py`, quando executados diretamente, criam contas na base indicada por `BASE_URL`. Recomenda-se o executor isolado acima. Detalhes e resultados em [TESTES.md](docs/TESTES.md).
-
 ## Organização
 
 ```text
@@ -210,4 +156,3 @@ O símbolo do Fórum é o PNG fornecido pelo utilizador, preservado sem alteraç
 - [Arquitetura e decisões](docs/ARQUITETURA.md)
 - [Guia para compreender o código](docs/GUIA_DE_LEITURA.md)
 - [Relatório de testes](docs/TESTES.md)
-- [Reconhecimento de IA](AI_USAGE.md)

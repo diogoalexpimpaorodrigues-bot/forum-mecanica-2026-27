@@ -1,0 +1,62 @@
+[
+  {
+    "screen": "entrada-320",
+    "violations": [],
+    "passes": 21
+  },
+  {
+    "screen": "entrada-390",
+    "violations": [],
+    "passes": 21
+  },
+  {
+    "screen": "entrada-768",
+    "violations": [],
+    "passes": 21
+  },
+  {
+    "screen": "entrada-1440",
+    "violations": [],
+    "passes": 21
+  },
+  {
+    "screen": "registo-com-erros",
+    "violations": [],
+    "passes": 24
+  },
+  {
+    "screen": "desafios-320",
+    "violations": [],
+    "passes": 20
+  },
+  {
+    "screen": "desafios-390",
+    "violations": [],
+    "passes": 20
+  },
+  {
+    "screen": "desafios-768",
+    "violations": [],
+    "passes": 20
+  },
+  {
+    "screen": "desafios-1440",
+    "violations": [],
+    "passes": 20
+  },
+  {
+    "screen": "loja",
+    "violations": [],
+    "passes": 20
+  },
+  {
+    "screen": "confirmacao",
+    "violations": [],
+    "passes": 14
+  },
+  {
+    "screen": "historico-filtrado",
+    "violations": [],
+    "passes": 20
+  }
+]

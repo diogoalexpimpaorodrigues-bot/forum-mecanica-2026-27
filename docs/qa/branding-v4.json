@@ -1,0 +1,32 @@
+{
+  "version": "4.0.0",
+  "date": "2026-10-27",
+  "original_logo_preserved": true,
+  "original_logo_sha256": "bf2e984891148c81012a29d595f236d7a11adbd2770458d4ceee9173b389468e",
+  "logo_and_favicon_bytes_checked_in_browser": true,
+  "react_tests_passed": 37,
+  "chromium_desktop_and_mobile_passed": true,
+  "axe_views": 12,
+  "axe_violations": 0,
+  "browser_report": {
+    "isolated_database": true,
+    "results": [
+      {
+        "script": "e2e.py",
+        "passed": true,
+        "seconds": 7.84
+      },
+      {
+        "script": "ui_audit.py",
+        "passed": true,
+        "seconds": 3.79
+      },
+      {
+        "script": "api_smoke.py",
+        "passed": true,
+        "seconds": 0.36
+      }
+    ]
+  },
+  "backend_and_dependencies_changed": false
+}

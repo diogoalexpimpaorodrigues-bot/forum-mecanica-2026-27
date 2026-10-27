@@ -1,0 +1,14 @@
+{
+  "seconds": 1201.09,
+  "workers": 4,
+  "accounts": 16,
+  "requests": 34862,
+  "http_statuses": {
+    "409": 26073,
+    "200": 8789
+  },
+  "latency_p50_ms": 7.11,
+  "latency_p95_ms": 11.78,
+  "invariants": "saldo não negativo; saldo igual à soma do histórico; operações únicas; isolamento por conta; revisão igual ao número de movimentos",
+  "passed": true
+}

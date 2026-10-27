@@ -1,0 +1,22 @@
+[
+  {
+    "regression": "aceitar-resposta-errada",
+    "detected": true,
+    "test": "core.tests.PassportTests.test_wrong_answer_has_no_credit"
+  },
+  {
+    "regression": "retirar-transacoes",
+    "detected": true,
+    "test": "core.tests.PassportTests.test_credit_once_and_rollback_duplicate"
+  },
+  {
+    "regression": "ignorar-troca-de-conta",
+    "detected": true,
+    "test": "core.test_invariants.InvariantTests.test_expected_account_mismatch_never_mutates_wallet"
+  },
+  {
+    "regression": "inflacionar-pontos",
+    "detected": true,
+    "test": "core.tests.PassportTests.test_server_ignores_client_points"
+  }
+]

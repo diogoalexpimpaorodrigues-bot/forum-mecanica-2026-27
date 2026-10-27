@@ -1,0 +1,10 @@
+{
+  "isolated_database": true,
+  "results": [
+    {
+      "script": "capture_preview.py",
+      "passed": true,
+      "seconds": 2.92
+    }
+  ]
+}

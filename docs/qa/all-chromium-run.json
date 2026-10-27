@@ -1,0 +1,20 @@
+{
+  "isolated_database": true,
+  "results": [
+    {
+      "script": "e2e.py",
+      "passed": true,
+      "seconds": 7.84
+    },
+    {
+      "script": "ui_audit.py",
+      "passed": true,
+      "seconds": 3.79
+    },
+    {
+      "script": "api_smoke.py",
+      "passed": true,
+      "seconds": 0.36
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "platform": "macOS ARM64",
+  "fresh_managed_python_install": true,
+  "python_selected": "Python 3.12.16",
+  "unicode_and_spaces_in_project_path": true,
+  "backup_before_pending_migration": true,
+  "account_and_points_preserved": true,
+  "repair_without_network_preserves_database": true,
+  "busy_port_handled": true,
+  "offline_startup_and_http_200": true,
+  "second_launch_reuses_running_site": true,
+  "ctrl_c_stops_server_and_releases_lock": true,
+  "subsequent_offline_install_passed": true,
+  "django_tests_passed_on_installed_python": 57
+}

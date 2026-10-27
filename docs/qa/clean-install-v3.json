@@ -1,0 +1,11 @@
+{
+  "version": "3.0.0",
+  "archive_extracted": true,
+  "existing_isolated_python_environment": true,
+  "fresh_temporary_database": true,
+  "frontend_node_modules_absent": true,
+  "automatic_migrations": true,
+  "new_html_and_built_assets_http_200": true,
+  "concurrent_api_smoke_passed": true,
+  "manifest_hashes_verified": 99
+}

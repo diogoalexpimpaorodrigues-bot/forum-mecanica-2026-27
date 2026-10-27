@@ -1,0 +1,58 @@
+{
+  "version": "3.0.0",
+  "date": "2026-10-27",
+  "django_tests_passed": 57,
+  "react_tests_passed": 37,
+  "browser_runs": {
+    "all-chromium-run.json": {
+      "isolated_database": true,
+      "results": [
+        {
+          "script": "e2e.py",
+          "passed": true,
+          "seconds": 8.53
+        },
+        {
+          "script": "ui_audit.py",
+          "passed": true,
+          "seconds": 3.69
+        },
+        {
+          "script": "api_smoke.py",
+          "passed": true,
+          "seconds": 0.44
+        }
+      ]
+    },
+    "e2e-firefox-run.json": {
+      "isolated_database": true,
+      "results": [
+        {
+          "script": "e2e.py",
+          "passed": true,
+          "seconds": 8.0
+        }
+      ]
+    },
+    "e2e-webkit-run.json": {
+      "isolated_database": true,
+      "results": [
+        {
+          "script": "e2e.py",
+          "passed": true,
+          "seconds": 7.57
+        }
+      ]
+    }
+  },
+  "axe_views": 12,
+  "axe_violations": 0,
+  "landing_and_dashboard_widths_checked": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "manual_screenshots_reviewed": true,
+  "backend_and_dependencies_changed": false
+}

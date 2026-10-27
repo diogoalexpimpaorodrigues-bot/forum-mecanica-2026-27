@@ -1,0 +1,10 @@
+{
+  "isolated_database": true,
+  "results": [
+    {
+      "script": "e2e.py",
+      "passed": true,
+      "seconds": 8.0
+    }
+  ]
+}

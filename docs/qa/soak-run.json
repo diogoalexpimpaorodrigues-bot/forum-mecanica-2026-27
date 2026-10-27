@@ -1,0 +1,10 @@
+{
+  "isolated_database": true,
+  "results": [
+    {
+      "script": "soak.py",
+      "passed": true,
+      "seconds": 1201.36
+    }
+  ]
+}

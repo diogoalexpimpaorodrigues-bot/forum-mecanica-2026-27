@@ -1,0 +1,20 @@
+{
+  "go_version": "go1.27.3",
+  "go_tests_passed": 6,
+  "python_installer_tests_passed": 3,
+  "native_execution_verified": [
+    "macOS ARM64"
+  ],
+  "compiled_targets": [
+    "windows/amd64",
+    "windows/arm64",
+    "darwin/amd64",
+    "darwin/arm64",
+    "linux/amd64",
+    "linux/arm64"
+  ],
+  "other_native_platforms_tested": false,
+  "uv_version": "0.13.6",
+  "bootstrap_archives_pinned": true,
+  "source_included": true
+}

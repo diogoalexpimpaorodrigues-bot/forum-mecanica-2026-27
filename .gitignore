@@ -1,0 +1,26 @@
+# Dados e ambientes criados em cada computador
+.venv/
+venv/
+.forum/
+.tools/
+node_modules/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.sqlite3-*
+*.sqlite3.*
+*.db
+*.db-*
+.env
+.env.*
+!.env.example
+
+# Relatórios temporários e preferências locais
+.DS_Store
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+.ruff_cache/
+.pytest_cache/
+*.log

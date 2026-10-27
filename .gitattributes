@@ -1,0 +1,6 @@
+# Preserva os bytes verificados pelo manifesto, mesmo com autocrlf no Windows.
+# Os diffs continuam disponíveis para os ficheiros de texto.
+* -text
+*.png binary
+*.exe binary
+installer/bin/* binary

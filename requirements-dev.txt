@@ -1,0 +1,5 @@
+-r backend/requirements.txt
+-r tests/requirements.txt
+coverage==7.17.0
+ruff==0.17.2
+pip-audit==2.10.1

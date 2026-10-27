@@ -2,7 +2,7 @@
 
 Uma WebApp de recrutamento com Django, React e SQLite. Cria uma conta sem email, resolve desafios de engenharia, recebe pontos e troca-os por brindes ilustrativos. A carteira, o histórico e a identificação da conta persistem no servidor.
 
-**Projeto desenvolvido com auxílio substancial de IA (OpenAI Codex).** Consulta [AI_USAGE.md](AI_USAGE.md) para o âmbito, decisões e limites. Os comentários foram redigidos com esse auxílio e não são apresentados como explicações pessoais do candidato.
+**Projeto desenvolvido com auxílio substancial de IA
 
 **Versão 5 — instalação automática.** Inclui arranque nativo para Windows, macOS e Linux. Mantém o logótipo fornecido pelo utilizador, a interface azul e todas as funcionalidades do passaporte. Consulta [as decisões da interface](docs/INTERFACE.md).
 
